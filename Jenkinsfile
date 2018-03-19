@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initialize') {
       steps {
-        sh 'mvn clean'
+        sh 'bat "mvn -version"'
       }
     }
   }
