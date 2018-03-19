@@ -6,5 +6,10 @@ pipeline {
         sh 'bat "mvn -version"'
       }
     }
+    stage('Build') {
+      steps {
+        sh 'bat "mvn -version"'
+      }
+    }
   }
 }
